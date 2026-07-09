@@ -2,8 +2,13 @@
   "name": "jpy-team-workspace",
   "private": true,
   "version": "0.1.0",
+  "engines": {
+    "node": "22.x",
+    "npm": "10.x"
+  },
   "scripts": {
     "dev": "tsx scripts/backup-sqlite.ts && next dev",
+    "prebuild": "prisma generate",
     "build": "next build",
     "start": "tsx scripts/backup-sqlite.ts && next start",
     "lint": "eslint .",

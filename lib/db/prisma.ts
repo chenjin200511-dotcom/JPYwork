@@ -10,6 +10,7 @@ const globalForPrisma = globalThis as unknown as {
 
 function createPrismaClient() {
   const connectionString =
+    process.env.POSTGRES_DATABASE_URL ??
     process.env.DATABASE_URL ??
     process.env.SQLITE_DATABASE_URL ??
     "postgresql://missing:missing@localhost:5432/missing";
