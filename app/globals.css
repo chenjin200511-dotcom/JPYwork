@@ -1,0 +1,62 @@
+/* Purpose: Loads Tailwind CSS and the public home style layers. */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --jpy-background: #f5f5f7;
+  --jpy-text: #1d1d1f;
+  --jpy-muted: #6e6e73;
+  --jpy-dark: #1d1d1f;
+  --jpy-border: #d2d2d7;
+  --jpy-block: #f0f0f2;
+  --jpy-card: #ffffff;
+  --jpy-accent: #b8945e;
+  color-scheme: light;
+}
+
+html {
+  scroll-behavior: smooth;
+  scroll-padding-top: 116px;
+}
+
+body {
+  margin: 0;
+  background: var(--jpy-background);
+  color: var(--jpy-text);
+  font-family:
+    -apple-system, BlinkMacSystemFont, "SF Pro Display", "SF Pro Text", Geist,
+    Inter, system-ui, "Segoe UI",
+    "PingFang SC", "Microsoft YaHei", "Noto Sans SC", sans-serif;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+::selection {
+  background: color-mix(in srgb, var(--jpy-accent) 25%, transparent);
+  color: var(--jpy-text);
+}
+
+a,
+button {
+  font: inherit;
+}
+
+a:focus-visible,
+button:focus-visible {
+  outline: 1px solid var(--jpy-accent);
+  outline-offset: 4px;
+}
+
+@media (max-width: 640px) {
+  html {
+    scroll-padding-top: 92px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  html {
+    scroll-behavior: auto;
+  }
+}

@@ -1,0 +1,673 @@
+{
+  "brand": {
+    "name": "JPY",
+    "subtitle": "三人跨境运营团队"
+  },
+  "nav": {
+    "overview": "总览",
+    "workflow": "协作",
+    "shopee": "虾皮",
+    "pricing": "定价",
+    "workspace": "工作区",
+    "login": "团队登录",
+    "menu": "菜单"
+  },
+  "common": {
+    "teamName": "JPY 团队",
+    "teamShortName": "JPY",
+    "teamWorkspace": "JPY 团队工作区",
+    "login": "团队登录",
+    "language": "语言",
+    "scrollToExplore": "继续探索"
+  },
+  "loading": {
+    "initializing": "正在初始化 JPY 团队系统",
+    "teamSystem": "JPY 系统",
+    "shopeeFirst": "虾皮主营",
+    "miaoshouBridge": "妙手串联",
+    "remoteOps": "远程运营"
+  },
+  "corners": {
+    "brandTitle": "JPY",
+    "brandSubtitle": "三人跨境运营团队",
+    "loginTitle": "团队登录",
+    "loginSubtitle": "进入工作区",
+    "shopeeTitle": "虾皮主营",
+    "shopeeSubtitle": "订单 / 客服 / 库存",
+    "miaoshouTitle": "妙手串联",
+    "miaoshouSubtitle": "ERP / 定价 / 财务"
+  },
+  "hero": {
+    "title": "让团队像系统一样运转起来。",
+    "subtitle": "围绕 Shopee 当前运营、TikTok Shop 后续扩展、妙手 ERP 数据串联，把任务、客服、订单、库存、利润与定价集中到一个远程协作工作区。",
+    "labels": [
+      "远程协作",
+      "虾皮主营",
+      "TikTok 预留",
+      "妙手串联"
+    ],
+    "primaryAction": "查看协作方式",
+    "secondaryAction": "团队登录"
+  },
+  "systemVisual": {
+    "centerNode": "团队工作区",
+    "nodes": {
+      "shopee": "Shopee",
+      "tasks": "任务",
+      "messages": "客服",
+      "orders": "订单",
+      "inventory": "库存",
+      "pricing": "定价",
+      "finance": "财务",
+      "miaoshou": "妙手",
+      "tiktok": "TikTok 预留"
+    }
+  },
+  "publicSections": {
+    "workflow": {
+      "title": "远程协作，系统清晰。",
+      "description": "三个人即使不在同一个地方，也可以通过任务、客服、订单、异常和利润状态同步工作。每个人只看自己该处理的事，负责人看到全局。",
+      "cards": [
+        {
+          "label": "任务",
+          "title": "今日任务",
+          "description": "把运营、客服、发货、异常处理拆成明确任务。"
+        },
+        {
+          "label": "消息",
+          "title": "客服消息",
+          "description": "把 Shopee 客服消息和售后问题沉淀成待处理事项。"
+        },
+        {
+          "label": "异常",
+          "title": "订单异常",
+          "description": "标记待发货、物流异常、库存不足和低利润订单。"
+        },
+        {
+          "label": "审批",
+          "title": "定价审批",
+          "description": "运营提交价格建议，负责人审批后执行。"
+        }
+      ]
+    },
+    "shopee": {
+      "title": "虾皮主营。",
+      "cards": [
+        {
+          "label": "刊登",
+          "title": "商品刊登",
+          "description": "管理标题、类目、图片和上新节奏。"
+        },
+        {
+          "label": "订单",
+          "title": "订单处理",
+          "description": "跟进待发货、取消、退款和异常订单。"
+        },
+        {
+          "label": "客服",
+          "title": "客服消息",
+          "description": "把售前售后消息转成可追踪事项。"
+        },
+        {
+          "label": "库存",
+          "title": "库存预警",
+          "description": "提前发现缺货、滞销和补货风险。"
+        },
+        {
+          "label": "利润",
+          "title": "利润快照",
+          "description": "快速查看订单、活动和商品利润状态。"
+        },
+        {
+          "label": "活动",
+          "title": "活动定价",
+          "description": "记录活动价建议、审批和执行结果。"
+        }
+      ]
+    },
+    "tiktok": {
+      "title": "TikTok Shop 预留。",
+      "cards": [
+        {
+          "label": "履约",
+          "title": "履约 SLA",
+          "description": "预留发货时效、延迟风险和平台指标入口。"
+        },
+        {
+          "label": "客服",
+          "title": "客服响应",
+          "description": "预留消息响应、售后处理和工单协同。"
+        },
+        {
+          "label": "健康",
+          "title": "店铺健康",
+          "description": "预留体验分、违规、履约和售后指标。"
+        },
+        {
+          "label": "素材",
+          "title": "内容素材",
+          "description": "整理商品素材、视频脚本和发布准备。"
+        },
+        {
+          "label": "内容",
+          "title": "直播/短视频协同",
+          "description": "把内容任务和商品运营放进同一节奏。"
+        },
+        {
+          "label": "订单",
+          "title": "订单与物流",
+          "description": "预留订单、物流、异常和售后跟进。"
+        }
+      ]
+    },
+    "miaoshou": {
+      "title": "妙手 ERP 串联。",
+      "description": "后续通过 API 授权、文件导入或数据同步，把妙手中的刊登、订单、库存、物流、利润等数据汇总到我们的工作区。",
+      "cards": [
+        {
+          "label": "刊登",
+          "title": "刊登数据",
+          "description": "同步商品、标题、类目、状态和更新记录。"
+        },
+        {
+          "label": "订单",
+          "title": "订单数据",
+          "description": "汇总订单状态、金额、买家和异常标记。"
+        },
+        {
+          "label": "库存",
+          "title": "库存数据",
+          "description": "对齐可售、锁定、缺货和补货信息。"
+        },
+        {
+          "label": "物流",
+          "title": "物流数据",
+          "description": "追踪发货、面单、运输和签收节点。"
+        },
+        {
+          "label": "利润",
+          "title": "利润数据",
+          "description": "汇总成本、费用、售价和利润区间。"
+        },
+        {
+          "label": "导入",
+          "title": "API / 文件导入",
+          "description": "先预留授权、上传和周期同步方式。"
+        }
+      ]
+    },
+    "roles": {
+      "title": "三个账号，一个运营节奏。",
+      "cards": [
+        {
+          "label": "负责人",
+          "title": "负责人",
+          "description": "看总览、看利润、审批定价、处理异常升级、财务税务导出、API 授权管理。"
+        },
+        {
+          "label": "运营",
+          "title": "运营",
+          "description": "商品刊登、标题优化、活动定价、库存预警、Shopee 运营、TikTok 预留模块维护。"
+        },
+        {
+          "label": "客服与发货",
+          "title": "客服与发货",
+          "description": "客服消息、售后工单、发货状态、物流异常、回款对账、单据整理。"
+        }
+      ]
+    },
+    "footer": {
+      "title": "JPY 团队工作区",
+      "note": "登录系统、真实数据和工作区权限将在后续步骤接入。"
+    }
+  },
+  "productHome": {
+    "hero": {
+      "title": "让团队像系统一样运转起来。",
+      "subtitle": "把 Shopee 运营、TikTok 预留、妙手 ERP、任务、客服、订单、库存、利润和定价集中到一个远程工作区。",
+      "primaryAction": "了解系统",
+      "secondaryAction": "进入工作区"
+    },
+    "dashboard": {
+      "sidebar": [
+        "总览",
+        "虾皮",
+        "任务",
+        "订单",
+        "利润"
+      ],
+      "kpi": [
+        "今日订单",
+        "待发货",
+        "利润状态"
+      ],
+      "tasks": [
+        "客服待回复",
+        "库存预警",
+        "定价审批"
+      ],
+      "chartLabel": "运营节奏"
+    },
+    "featureMosaic": {
+      "title": "一个团队，三种角色，一个节奏。",
+      "cards": {
+        "shopeeControl": {
+          "title": "虾皮运营中枢",
+          "description": "商品、订单、客服、库存和利润集中在同一个操作视图。",
+          "items": [
+            "刊登",
+            "订单",
+            "库存",
+            "利润"
+          ]
+        },
+        "messages": {
+          "title": "客服消息",
+          "description": "客服消息转成待办事项，支持售前、售后和异常跟进。",
+          "metric": "0",
+          "items": [
+            "待回复",
+            "售后",
+            "异常"
+          ]
+        },
+        "pricing": {
+          "title": "定价审批",
+          "description": "运营提交价格建议，负责人确认后再进入执行节奏。",
+          "items": [
+            "建议",
+            "审批",
+            "执行"
+          ]
+        },
+        "miaoshouBridge": {
+          "title": "妙手 ERP 串联",
+          "description": "后续把妙手 ERP 中的刊登、订单、库存和利润数据汇入工作区。",
+          "items": [
+            "API",
+            "文件导入",
+            "授权同步"
+          ]
+        },
+        "inventory": {
+          "title": "库存预警",
+          "description": "提前看到缺货、滞销和补货风险。",
+          "metric": "00"
+        },
+        "orders": {
+          "title": "订单处理",
+          "description": "待发货、取消、退款和物流异常保持可见。",
+          "metric": "00"
+        },
+        "finance": {
+          "title": "财务税务",
+          "description": "利润、费用、回款和税务导出后续接入。",
+          "metric": "--"
+        }
+      }
+    },
+    "shopeeHero": {
+      "title": "虾皮主营。",
+      "subtitle": "当前主要围绕虾皮的商品、订单、客服、库存和利润运转。",
+      "steps": [
+        "商品刊登",
+        "客服消息",
+        "订单",
+        "发货",
+        "利润"
+      ]
+    },
+    "tiktokReady": {
+      "title": "TikTok Shop 预留。",
+      "subtitle": "后续接入履约 SLA、客服响应、店铺健康、内容素材和订单物流。",
+      "modules": [
+        "履约 SLA",
+        "客服响应",
+        "店铺健康",
+        "内容素材",
+        "订单物流"
+      ]
+    },
+    "miaoshouBridge": {
+      "title": "妙手 ERP 串联。",
+      "subtitle": "后续通过 API、文件导入或授权连接，把刊登、订单、库存、物流和利润数据汇入 JPY 工作区。",
+      "center": "JPY 工作区",
+      "flows": [
+        "刊登",
+        "订单",
+        "库存",
+        "物流",
+        "利润"
+      ]
+    },
+    "roles": {
+      "title": "三个人，各自清晰，也能同步运转。",
+      "owner": {
+        "title": "负责人",
+        "description": "看全局、看利润、审批定价、处理升级异常。",
+        "metric": "01",
+        "items": [
+          "利润",
+          "审批",
+          "授权"
+        ]
+      },
+      "operator": {
+        "title": "运营",
+        "description": "处理刊登、活动、库存和平台运营节奏。",
+        "metric": "02",
+        "items": [
+          "刊登",
+          "活动",
+          "库存"
+        ]
+      },
+      "support": {
+        "title": "客服与发货",
+        "description": "处理客服、售后、发货和物流异常。",
+        "metric": "03",
+        "items": [
+          "客服",
+          "发货",
+          "对账"
+        ]
+      }
+    },
+    "finalCta": {
+      "title": "准备进入 JPY 工作区。",
+      "action": "团队登录"
+    }
+  },
+  "section": {
+    "workflow": "协作方式",
+    "shopee": "Shopee",
+    "tiktok": "TikTok Shop",
+    "miaoshou": "妙手 ERP",
+    "roles": "团队角色"
+  },
+  "navigation": {
+    "overview": "总览",
+    "shopee": "虾皮",
+    "workflow": "协作",
+    "pricing": "定价",
+    "workspace": "工作区",
+    "menu": "菜单"
+  },
+  "auth": {
+    "title": "登录 JPY 工作区",
+    "subtitle": "使用你的团队账号进入远程运营系统。",
+    "email": "邮箱",
+    "password": "密码",
+    "rememberDevice": "记住设备",
+    "signIn": "登录",
+    "invalidCredentials": "账号或密码不正确",
+    "close": "关闭"
+  },
+  "blocks": [
+    {
+      "id": "overview",
+      "type": "hero",
+      "enabled": true,
+      "layout": "product-hero",
+      "title": "让团队像系统一样运转起来。",
+      "subtitle": "把 Shopee 运营、TikTok 预留、妙手 ERP、任务、客服、订单、库存、利润和定价集中到一个远程工作区。",
+      "primaryCta": "了解系统",
+      "secondaryCta": "进入工作区",
+      "dashboard": {
+        "sidebar": [
+          "总览",
+          "虾皮",
+          "任务",
+          "订单",
+          "利润"
+        ],
+        "kpi": [
+          "今日订单",
+          "待发货",
+          "利润状态"
+        ],
+        "tasks": [
+          "客服待回复",
+          "库存预警",
+          "定价审批"
+        ],
+        "chartLabel": "运营节奏"
+      }
+    },
+    {
+      "id": "workflow",
+      "type": "feature-mosaic",
+      "enabled": true,
+      "layout": "apple-mosaic",
+      "title": "一个团队，三种角色，一个节奏。",
+      "items": [
+        {
+          "title": "虾皮运营中枢",
+          "description": "商品、订单、客服、库存和利润集中在同一个操作视图。",
+          "items": [
+            "刊登",
+            "订单",
+            "库存",
+            "利润"
+          ],
+          "size": "large",
+          "visual": "listing"
+        },
+        {
+          "title": "客服消息",
+          "description": "客服消息转成待办事项，支持售前、售后和异常跟进。",
+          "metric": "0",
+          "items": [
+            "待回复",
+            "售后",
+            "异常"
+          ],
+          "size": "medium",
+          "visual": "messages"
+        },
+        {
+          "title": "定价审批",
+          "description": "运营提交价格建议，负责人确认后再进入执行节奏。",
+          "items": [
+            "建议",
+            "审批",
+            "执行"
+          ],
+          "size": "medium",
+          "visual": "pricing"
+        },
+        {
+          "title": "妙手 ERP 串联",
+          "description": "后续把妙手 ERP 中的刊登、订单、库存和利润数据汇入工作区。",
+          "items": [
+            "API",
+            "文件导入",
+            "授权同步"
+          ],
+          "size": "large",
+          "visual": "bridge"
+        },
+        {
+          "title": "库存预警",
+          "description": "提前看到缺货、滞销和补货风险。",
+          "metric": "00",
+          "size": "small",
+          "visual": "inventory"
+        },
+        {
+          "title": "订单处理",
+          "description": "待发货、取消、退款和物流异常保持可见。",
+          "metric": "00",
+          "size": "small",
+          "visual": "orders"
+        },
+        {
+          "title": "财务税务",
+          "description": "利润、费用、回款和税务导出后续接入。",
+          "metric": "--",
+          "size": "small",
+          "visual": "finance"
+        }
+      ]
+    },
+    {
+      "id": "shopee",
+      "type": "showcase",
+      "enabled": true,
+      "layout": "shopee-flow",
+      "title": "虾皮主营。",
+      "subtitle": "当前主要围绕虾皮的商品、订单、客服、库存和利润运转。",
+      "items": [
+        {
+          "title": "商品刊登",
+          "size": "wide",
+          "visual": "step-1"
+        },
+        {
+          "title": "客服消息",
+          "size": "medium",
+          "visual": "step-2"
+        },
+        {
+          "title": "订单",
+          "size": "medium",
+          "visual": "step-3"
+        },
+        {
+          "title": "发货",
+          "size": "medium",
+          "visual": "step-4"
+        },
+        {
+          "title": "利润",
+          "size": "medium",
+          "visual": "step-5"
+        }
+      ]
+    },
+    {
+      "id": "tiktok",
+      "type": "showcase",
+      "enabled": true,
+      "layout": "future-panel",
+      "title": "TikTok Shop 预留。",
+      "subtitle": "后续接入履约 SLA、客服响应、店铺健康、内容素材和订单物流。",
+      "items": [
+        {
+          "title": "履约 SLA",
+          "size": "medium",
+          "visual": "future"
+        },
+        {
+          "title": "客服响应",
+          "size": "medium",
+          "visual": "future"
+        },
+        {
+          "title": "店铺健康",
+          "size": "medium",
+          "visual": "future"
+        },
+        {
+          "title": "内容素材",
+          "size": "medium",
+          "visual": "future"
+        },
+        {
+          "title": "订单物流",
+          "size": "medium",
+          "visual": "future"
+        }
+      ]
+    },
+    {
+      "id": "miaoshou",
+      "type": "showcase",
+      "enabled": true,
+      "layout": "orbit",
+      "title": "妙手 ERP 串联。",
+      "subtitle": "后续通过 API、文件导入或授权连接，把刊登、订单、库存、物流和利润数据汇入 JPY 工作区。",
+      "center": "JPY 工作区",
+      "items": [
+        {
+          "title": "刊登",
+          "size": "small",
+          "visual": "data-flow"
+        },
+        {
+          "title": "订单",
+          "size": "small",
+          "visual": "data-flow"
+        },
+        {
+          "title": "库存",
+          "size": "small",
+          "visual": "data-flow"
+        },
+        {
+          "title": "物流",
+          "size": "small",
+          "visual": "data-flow"
+        },
+        {
+          "title": "利润",
+          "size": "small",
+          "visual": "data-flow"
+        }
+      ]
+    },
+    {
+      "id": "roles",
+      "type": "roles",
+      "enabled": true,
+      "layout": "role-stack",
+      "title": "三个人，各自清晰，也能同步运转。",
+      "items": [
+        {
+          "title": "负责人",
+          "description": "看全局、看利润、审批定价、处理升级异常。",
+          "metric": "01",
+          "items": [
+            "利润",
+            "审批",
+            "授权"
+          ],
+          "size": "large",
+          "visual": "owner"
+        },
+        {
+          "title": "运营",
+          "description": "处理刊登、活动、库存和平台运营节奏。",
+          "metric": "02",
+          "items": [
+            "刊登",
+            "活动",
+            "库存"
+          ],
+          "size": "medium",
+          "visual": "operator"
+        },
+        {
+          "title": "客服与发货",
+          "description": "处理客服、售后、发货和物流异常。",
+          "metric": "03",
+          "items": [
+            "客服",
+            "发货",
+            "对账"
+          ],
+          "size": "medium",
+          "visual": "support"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "type": "cta",
+      "enabled": true,
+      "layout": "centered",
+      "title": "准备进入 JPY 工作区。",
+      "primaryCta": "团队登录"
+    }
+  ]
+}

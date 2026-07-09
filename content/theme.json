@@ -1,0 +1,25 @@
+{
+  "radius": {
+    "card": "32px",
+    "button": "999px",
+    "workspaceCard": "28px"
+  },
+  "spacing": {
+    "sectionDesktop": "160px",
+    "sectionMobile": "88px",
+    "gridGap": "28px"
+  },
+  "typography": {
+    "displayDesktop": "88px",
+    "displayMobile": "52px",
+    "sectionTitleDesktop": "72px",
+    "sectionTitleMobile": "40px",
+    "subtitleDesktop": "24px",
+    "body": "17px"
+  },
+  "cards": {
+    "largeHeight": "620px",
+    "mediumHeight": "490px",
+    "smallHeight": "340px"
+  }
+}

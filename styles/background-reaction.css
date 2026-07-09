@@ -1,0 +1,121 @@
+/* Purpose: Styles the pointer-reactive background membrane and passive pattern layer. */
+.interactive-background-reaction,
+.interaction-pattern-layer {
+  position: fixed;
+  inset: 0;
+  z-index: 0;
+  overflow: hidden;
+  pointer-events: none;
+}
+
+.interactive-background-reaction {
+  --pointer-x: 50vw;
+  --pointer-y: 50vh;
+  --pointer-speed: 0;
+  --pointer-angle: 0deg;
+  --reaction-alpha: 0;
+  --reaction-drift-x: 0px;
+  --reaction-drift-y: 0px;
+  --reaction-drift-x-negative: 0px;
+  --reaction-drift-y-negative: 0px;
+  --reaction-glow-opacity: 0;
+  --reaction-lift-opacity: 0;
+  --reaction-ripple-opacity: 0;
+  --reaction-spread-large: 0px;
+  --reaction-spread-medium: 0px;
+  --reaction-spread-small: 0px;
+
+  contain: layout paint style;
+  opacity: 0.5;
+}
+
+.interactive-background-reaction > div {
+  position: absolute;
+  top: var(--pointer-y);
+  left: var(--pointer-x);
+  border-radius: 999px;
+  pointer-events: none;
+  transform:
+    translate(
+      calc(-50% + var(--reaction-drift-x)),
+      calc(-50% + var(--reaction-drift-y))
+    )
+    rotate(var(--pointer-angle));
+  transform-origin: center;
+  will-change: opacity, transform, filter;
+}
+
+.reaction-glow {
+  width: calc(210px + var(--reaction-spread-medium));
+  height: calc(176px + var(--reaction-spread-small));
+  background:
+    radial-gradient(
+      ellipse at center,
+      rgb(255 255 255 / 0.58) 0%,
+      rgb(255 255 255 / 0.26) 24%,
+      rgb(184 148 94 / 0.07) 46%,
+      transparent 74%
+  );
+  filter: blur(18px);
+  mix-blend-mode: screen;
+  opacity: calc(var(--reaction-glow-opacity) * 0.2);
+}
+
+.reaction-ripple {
+  width: calc(220px + var(--reaction-spread-large));
+  height: calc(168px + var(--reaction-spread-medium));
+  border: 1px solid rgb(184 148 94 / 0.045);
+  background: transparent;
+  filter: blur(0.2px);
+  mask-image: radial-gradient(ellipse at center, black 0%, transparent 74%);
+  opacity: calc(var(--reaction-ripple-opacity) * 0.08);
+  -webkit-mask-image: radial-gradient(ellipse at center, black 0%, transparent 74%);
+}
+
+.reaction-lift {
+  width: calc(190px + var(--reaction-spread-medium));
+  height: calc(146px + var(--reaction-spread-small));
+  border: 1px solid rgb(255 255 255 / 0.54);
+  background:
+    radial-gradient(
+      ellipse at 42% 38%,
+      rgb(255 255 255 / 0.42),
+      rgb(255 255 255 / 0.12) 36%,
+      transparent 68%
+    );
+  box-shadow:
+    0 18px 52px rgb(30 30 30 / 0.045),
+    inset 0 1px 0 rgb(255 255 255 / 0.5),
+    inset 0 -18px 34px rgb(30 30 30 / 0.026);
+  filter: blur(0.1px);
+  opacity: calc(var(--reaction-lift-opacity) * 0.12);
+}
+
+.interactive-background-reaction.is-reaction-muted {
+  opacity: 0;
+}
+
+.interaction-pattern-layer {
+  display: none;
+  opacity: 0;
+}
+
+@media (max-width: 760px), (pointer: coarse) {
+  .interactive-background-reaction {
+    display: none;
+  }
+
+  .interaction-pattern-layer {
+    opacity: 0;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .interactive-background-reaction {
+    display: none;
+  }
+
+  .interaction-pattern-layer {
+    opacity: 0;
+  }
+}

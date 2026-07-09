@@ -1,0 +1,673 @@
+{
+  "brand": {
+    "name": "JPY",
+    "subtitle": "THREE-PERSON CROSS-BORDER TEAM"
+  },
+  "nav": {
+    "overview": "Overview",
+    "workflow": "Workflow",
+    "shopee": "Shopee",
+    "pricing": "Pricing",
+    "workspace": "Workspace",
+    "login": "Team Login",
+    "menu": "Menu"
+  },
+  "common": {
+    "teamName": "JPY Team",
+    "teamShortName": "JPY",
+    "teamWorkspace": "JPY Team Workspace",
+    "login": "Team Login",
+    "language": "Language",
+    "scrollToExplore": "SCROLL TO EXPLORE"
+  },
+  "loading": {
+    "initializing": "INITIALIZING JPY TEAM SYSTEM",
+    "teamSystem": "JPY SYSTEM",
+    "shopeeFirst": "SHOPEE FIRST",
+    "miaoshouBridge": "MIAOSHOU BRIDGE",
+    "remoteOps": "REMOTE OPS"
+  },
+  "corners": {
+    "brandTitle": "JPY",
+    "brandSubtitle": "THREE-PERSON CROSS-BORDER TEAM",
+    "loginTitle": "TEAM LOGIN",
+    "loginSubtitle": "ENTER WORKSPACE",
+    "shopeeTitle": "SHOPEE FIRST",
+    "shopeeSubtitle": "ORDERS / MESSAGES / INVENTORY",
+    "miaoshouTitle": "MIAOSHOU BRIDGE",
+    "miaoshouSubtitle": "ERP / PRICING / FINANCE"
+  },
+  "hero": {
+    "title": "Run the team like one system.",
+    "subtitle": "Built around Shopee operations, TikTok Shop expansion, and Miaoshou ERP data flow, JPY brings tasks, messages, orders, inventory, profit, and pricing into one remote workspace.",
+    "labels": [
+      "REMOTE OPS",
+      "SHOPEE FIRST",
+      "TIKTOK READY",
+      "ERP BRIDGE"
+    ],
+    "primaryAction": "Explore Workflow",
+    "secondaryAction": "Team Login"
+  },
+  "systemVisual": {
+    "centerNode": "TEAM WORKSPACE",
+    "nodes": {
+      "shopee": "SHOPEE",
+      "tasks": "TASKS",
+      "messages": "MESSAGES",
+      "orders": "ORDERS",
+      "inventory": "INVENTORY",
+      "pricing": "PRICING",
+      "finance": "FINANCE",
+      "miaoshou": "MIAOSHOU",
+      "tiktok": "TIKTOK READY"
+    }
+  },
+  "publicSections": {
+    "workflow": {
+      "title": "Remote by default. Clear by system.",
+      "description": "Even when three people are not in the same place, tasks, messages, orders, exceptions, and profit states keep the team synchronized. Each person sees what they need to handle. The owner sees the whole operating picture.",
+      "cards": [
+        {
+          "label": "Tasks",
+          "title": "Today Tasks",
+          "description": "Split operations, support, fulfillment, and exceptions into clear work items."
+        },
+        {
+          "label": "Messages",
+          "title": "Customer Messages",
+          "description": "Turn Shopee messages and after-sales issues into trackable actions."
+        },
+        {
+          "label": "Exceptions",
+          "title": "Order Exceptions",
+          "description": "Flag pending shipment, logistics issues, stock gaps, and low-profit orders."
+        },
+        {
+          "label": "Approval",
+          "title": "Pricing Approval",
+          "description": "Operators submit pricing suggestions. The owner approves before execution."
+        }
+      ]
+    },
+    "shopee": {
+      "title": "Shopee first.",
+      "cards": [
+        {
+          "label": "Listing",
+          "title": "Product Listing",
+          "description": "Manage titles, categories, assets, and launch rhythm."
+        },
+        {
+          "label": "Orders",
+          "title": "Order Handling",
+          "description": "Track shipment queues, cancellations, refunds, and order exceptions."
+        },
+        {
+          "label": "Support",
+          "title": "Customer Messages",
+          "description": "Convert pre-sale and after-sale messages into visible work."
+        },
+        {
+          "label": "Inventory",
+          "title": "Inventory Alerts",
+          "description": "Catch stockouts, slow movers, and replenishment risks early."
+        },
+        {
+          "label": "Profit",
+          "title": "Profit Snapshot",
+          "description": "Read profit status across orders, campaigns, and products quickly."
+        },
+        {
+          "label": "Campaign",
+          "title": "Campaign Pricing",
+          "description": "Record campaign price suggestions, approvals, and execution status."
+        }
+      ]
+    },
+    "tiktok": {
+      "title": "TikTok Shop ready.",
+      "cards": [
+        {
+          "label": "SLA",
+          "title": "Fulfillment SLA",
+          "description": "Reserve entrances for shipment timing, delay risks, and platform metrics."
+        },
+        {
+          "label": "Support",
+          "title": "Response Flow",
+          "description": "Reserve message response, after-sales handling, and ticket collaboration."
+        },
+        {
+          "label": "Health",
+          "title": "Shop Health",
+          "description": "Reserve score, violation, fulfillment, and service indicators."
+        },
+        {
+          "label": "Assets",
+          "title": "Content Assets",
+          "description": "Organize product assets, video scripts, and publishing preparation."
+        },
+        {
+          "label": "Content",
+          "title": "Live / Short Video",
+          "description": "Keep content tasks and product operations in one operating rhythm."
+        },
+        {
+          "label": "Orders",
+          "title": "Orders & Logistics",
+          "description": "Reserve order, logistics, exception, and after-sales follow-up."
+        }
+      ]
+    },
+    "miaoshou": {
+      "title": "Miaoshou ERP Bridge.",
+      "description": "Later, through API authorization, file imports, or scheduled sync, listing, order, inventory, logistics, and profit data from Miaoshou can be collected into the JPY workspace.",
+      "cards": [
+        {
+          "label": "Listing",
+          "title": "Listing Data",
+          "description": "Sync products, titles, categories, statuses, and update records."
+        },
+        {
+          "label": "Orders",
+          "title": "Order Data",
+          "description": "Collect order status, value, buyer context, and exception flags."
+        },
+        {
+          "label": "Inventory",
+          "title": "Inventory Data",
+          "description": "Align available stock, locked stock, shortages, and replenishment."
+        },
+        {
+          "label": "Logistics",
+          "title": "Logistics Data",
+          "description": "Track shipment, labels, transit, and delivery milestones."
+        },
+        {
+          "label": "Profit",
+          "title": "Profit Data",
+          "description": "Summarize costs, fees, selling prices, and profit ranges."
+        },
+        {
+          "label": "Import",
+          "title": "API / File Import",
+          "description": "Reserve authorization, upload, and scheduled sync paths first."
+        }
+      ]
+    },
+    "roles": {
+      "title": "Three accounts. One operating rhythm.",
+      "cards": [
+        {
+          "label": "Owner",
+          "title": "Owner",
+          "description": "Views overview and profit, approves pricing, escalates exceptions, exports finance and tax files, and manages API authorization."
+        },
+        {
+          "label": "Operator",
+          "title": "Operator",
+          "description": "Handles listings, title optimization, campaign pricing, inventory alerts, Shopee operations, and reserved TikTok modules."
+        },
+        {
+          "label": "Support & Fulfillment",
+          "title": "Support & Fulfillment",
+          "description": "Handles customer messages, after-sales tickets, shipment status, logistics exceptions, payment reconciliation, and documents."
+        }
+      ]
+    },
+    "footer": {
+      "title": "JPY Team Workspace",
+      "note": "Login, real data, and workspace permissions will be connected in later steps."
+    }
+  },
+  "productHome": {
+    "hero": {
+      "title": "Run the team like one system.",
+      "subtitle": "A remote operations workspace for Shopee, TikTok-ready workflows, Miaoshou ERP data, tasks, messages, orders, inventory, profit, and pricing.",
+      "primaryAction": "Explore System",
+      "secondaryAction": "Enter Workspace"
+    },
+    "dashboard": {
+      "sidebar": [
+        "Overview",
+        "Shopee",
+        "Tasks",
+        "Orders",
+        "Profit"
+      ],
+      "kpi": [
+        "Orders Today",
+        "Pending Shipment",
+        "Profit Status"
+      ],
+      "tasks": [
+        "Messages Waiting",
+        "Inventory Alerts",
+        "Pricing Approval"
+      ],
+      "chartLabel": "Operating Rhythm"
+    },
+    "featureMosaic": {
+      "title": "One team. Three roles. One rhythm.",
+      "cards": {
+        "shopeeControl": {
+          "title": "Shopee Control",
+          "description": "Products, orders, messages, inventory, and profit in one operating view.",
+          "items": [
+            "Listings",
+            "Orders",
+            "Inventory",
+            "Profit"
+          ]
+        },
+        "messages": {
+          "title": "Messages",
+          "description": "Turn support conversations into visible work for pre-sale, after-sale, and exception handling.",
+          "metric": "0",
+          "items": [
+            "Waiting",
+            "After-sale",
+            "Risk"
+          ]
+        },
+        "pricing": {
+          "title": "Pricing",
+          "description": "Operators submit pricing suggestions. The owner confirms before execution.",
+          "items": [
+            "Suggest",
+            "Approve",
+            "Execute"
+          ]
+        },
+        "miaoshouBridge": {
+          "title": "Miaoshou Bridge",
+          "description": "Later, listing, order, inventory, and profit data from Miaoshou ERP flow into the workspace.",
+          "items": [
+            "API",
+            "File Import",
+            "Authorized Sync"
+          ]
+        },
+        "inventory": {
+          "title": "Inventory",
+          "description": "Catch stockouts, slow movers, and replenishment risk before they become urgent.",
+          "metric": "00"
+        },
+        "orders": {
+          "title": "Orders",
+          "description": "Pending shipment, cancellation, refund, and logistics exceptions stay visible.",
+          "metric": "00"
+        },
+        "finance": {
+          "title": "Finance",
+          "description": "Profit, cost, collection, and tax exports are reserved for the next stage.",
+          "metric": "--"
+        }
+      }
+    },
+    "shopeeHero": {
+      "title": "Shopee first.",
+      "subtitle": "Current operations center on products, orders, messages, inventory, and profit.",
+      "steps": [
+        "Product Listing",
+        "Messages",
+        "Orders",
+        "Shipment",
+        "Profit"
+      ]
+    },
+    "tiktokReady": {
+      "title": "TikTok Shop ready.",
+      "subtitle": "Fulfillment SLA, response flow, shop health, content assets, and order logistics are reserved for later connection.",
+      "modules": [
+        "Fulfillment SLA",
+        "Response Flow",
+        "Shop Health",
+        "Content Assets",
+        "Order Logistics"
+      ]
+    },
+    "miaoshouBridge": {
+      "title": "Miaoshou ERP Bridge.",
+      "subtitle": "Later, API, file import, or authorization can bring listing, order, inventory, logistics, and profit data into the JPY workspace.",
+      "center": "JPY Workspace",
+      "flows": [
+        "Listings",
+        "Orders",
+        "Inventory",
+        "Logistics",
+        "Profit"
+      ]
+    },
+    "roles": {
+      "title": "Three people. Clear ownership. Shared rhythm.",
+      "owner": {
+        "title": "Owner",
+        "description": "Sees the whole picture, reads profit, approves pricing, and handles escalations.",
+        "metric": "01",
+        "items": [
+          "Profit",
+          "Approval",
+          "Authorization"
+        ]
+      },
+      "operator": {
+        "title": "Operator",
+        "description": "Runs listings, campaigns, inventory signals, and platform operations.",
+        "metric": "02",
+        "items": [
+          "Listings",
+          "Campaigns",
+          "Inventory"
+        ]
+      },
+      "support": {
+        "title": "Support",
+        "description": "Handles messages, after-sales work, shipment status, and logistics exceptions.",
+        "metric": "03",
+        "items": [
+          "Messages",
+          "Shipment",
+          "Reconciliation"
+        ]
+      }
+    },
+    "finalCta": {
+      "title": "Ready to enter JPY Workspace.",
+      "action": "Team Login"
+    }
+  },
+  "section": {
+    "workflow": "Workflow",
+    "shopee": "Shopee",
+    "tiktok": "TikTok Shop",
+    "miaoshou": "Miaoshou ERP",
+    "roles": "Roles"
+  },
+  "navigation": {
+    "overview": "Overview",
+    "shopee": "Shopee",
+    "workflow": "Workflow",
+    "pricing": "Pricing",
+    "workspace": "Workspace",
+    "menu": "Menu"
+  },
+  "auth": {
+    "title": "Sign in to JPY Workspace",
+    "subtitle": "Use your team account to enter the remote operations system.",
+    "email": "Email",
+    "password": "Password",
+    "rememberDevice": "Remember this device",
+    "signIn": "Sign in",
+    "invalidCredentials": "Invalid email or password",
+    "close": "Close"
+  },
+  "blocks": [
+    {
+      "id": "overview",
+      "type": "hero",
+      "enabled": true,
+      "layout": "product-hero",
+      "title": "Run the team like one system.",
+      "subtitle": "A remote operations workspace for Shopee, TikTok-ready workflows, Miaoshou ERP data, tasks, messages, orders, inventory, profit, and pricing.",
+      "primaryCta": "Explore System",
+      "secondaryCta": "Enter Workspace",
+      "dashboard": {
+        "sidebar": [
+          "Overview",
+          "Shopee",
+          "Tasks",
+          "Orders",
+          "Profit"
+        ],
+        "kpi": [
+          "Orders Today",
+          "Pending Shipment",
+          "Profit Status"
+        ],
+        "tasks": [
+          "Messages Waiting",
+          "Inventory Alerts",
+          "Pricing Approval"
+        ],
+        "chartLabel": "Operating Rhythm"
+      }
+    },
+    {
+      "id": "workflow",
+      "type": "feature-mosaic",
+      "enabled": true,
+      "layout": "apple-mosaic",
+      "title": "One team. Three roles. One rhythm.",
+      "items": [
+        {
+          "title": "Shopee Control",
+          "description": "Products, orders, messages, inventory, and profit in one operating view.",
+          "items": [
+            "Listings",
+            "Orders",
+            "Inventory",
+            "Profit"
+          ],
+          "size": "large",
+          "visual": "listing"
+        },
+        {
+          "title": "Messages",
+          "description": "Turn support conversations into visible work for pre-sale, after-sale, and exception handling.",
+          "metric": "0",
+          "items": [
+            "Waiting",
+            "After-sale",
+            "Risk"
+          ],
+          "size": "medium",
+          "visual": "messages"
+        },
+        {
+          "title": "Pricing",
+          "description": "Operators submit pricing suggestions. The owner confirms before execution.",
+          "items": [
+            "Suggest",
+            "Approve",
+            "Execute"
+          ],
+          "size": "medium",
+          "visual": "pricing"
+        },
+        {
+          "title": "Miaoshou Bridge",
+          "description": "Later, listing, order, inventory, and profit data from Miaoshou ERP flow into the workspace.",
+          "items": [
+            "API",
+            "File Import",
+            "Authorized Sync"
+          ],
+          "size": "large",
+          "visual": "bridge"
+        },
+        {
+          "title": "Inventory",
+          "description": "Catch stockouts, slow movers, and replenishment risk before they become urgent.",
+          "metric": "00",
+          "size": "small",
+          "visual": "inventory"
+        },
+        {
+          "title": "Orders",
+          "description": "Pending shipment, cancellation, refund, and logistics exceptions stay visible.",
+          "metric": "00",
+          "size": "small",
+          "visual": "orders"
+        },
+        {
+          "title": "Finance",
+          "description": "Profit, cost, collection, and tax exports are reserved for the next stage.",
+          "metric": "--",
+          "size": "small",
+          "visual": "finance"
+        }
+      ]
+    },
+    {
+      "id": "shopee",
+      "type": "showcase",
+      "enabled": true,
+      "layout": "shopee-flow",
+      "title": "Shopee first.",
+      "subtitle": "Current operations center on products, orders, messages, inventory, and profit.",
+      "items": [
+        {
+          "title": "Product Listing",
+          "size": "wide",
+          "visual": "step-1"
+        },
+        {
+          "title": "Messages",
+          "size": "medium",
+          "visual": "step-2"
+        },
+        {
+          "title": "Orders",
+          "size": "medium",
+          "visual": "step-3"
+        },
+        {
+          "title": "Shipment",
+          "size": "medium",
+          "visual": "step-4"
+        },
+        {
+          "title": "Profit",
+          "size": "medium",
+          "visual": "step-5"
+        }
+      ]
+    },
+    {
+      "id": "tiktok",
+      "type": "showcase",
+      "enabled": true,
+      "layout": "future-panel",
+      "title": "TikTok Shop ready.",
+      "subtitle": "Fulfillment SLA, response flow, shop health, content assets, and order logistics are reserved for later connection.",
+      "items": [
+        {
+          "title": "Fulfillment SLA",
+          "size": "medium",
+          "visual": "future"
+        },
+        {
+          "title": "Response Flow",
+          "size": "medium",
+          "visual": "future"
+        },
+        {
+          "title": "Shop Health",
+          "size": "medium",
+          "visual": "future"
+        },
+        {
+          "title": "Content Assets",
+          "size": "medium",
+          "visual": "future"
+        },
+        {
+          "title": "Order Logistics",
+          "size": "medium",
+          "visual": "future"
+        }
+      ]
+    },
+    {
+      "id": "miaoshou",
+      "type": "showcase",
+      "enabled": true,
+      "layout": "orbit",
+      "title": "Miaoshou ERP Bridge.",
+      "subtitle": "Later, API, file import, or authorization can bring listing, order, inventory, logistics, and profit data into the JPY workspace.",
+      "center": "JPY Workspace",
+      "items": [
+        {
+          "title": "Listings",
+          "size": "small",
+          "visual": "data-flow"
+        },
+        {
+          "title": "Orders",
+          "size": "small",
+          "visual": "data-flow"
+        },
+        {
+          "title": "Inventory",
+          "size": "small",
+          "visual": "data-flow"
+        },
+        {
+          "title": "Logistics",
+          "size": "small",
+          "visual": "data-flow"
+        },
+        {
+          "title": "Profit",
+          "size": "small",
+          "visual": "data-flow"
+        }
+      ]
+    },
+    {
+      "id": "roles",
+      "type": "roles",
+      "enabled": true,
+      "layout": "role-stack",
+      "title": "Three people. Clear ownership. Shared rhythm.",
+      "items": [
+        {
+          "title": "Owner",
+          "description": "Sees the whole picture, reads profit, approves pricing, and handles escalations.",
+          "metric": "01",
+          "items": [
+            "Profit",
+            "Approval",
+            "Authorization"
+          ],
+          "size": "large",
+          "visual": "owner"
+        },
+        {
+          "title": "Operator",
+          "description": "Runs listings, campaigns, inventory signals, and platform operations.",
+          "metric": "02",
+          "items": [
+            "Listings",
+            "Campaigns",
+            "Inventory"
+          ],
+          "size": "medium",
+          "visual": "operator"
+        },
+        {
+          "title": "Support",
+          "description": "Handles messages, after-sales work, shipment status, and logistics exceptions.",
+          "metric": "03",
+          "items": [
+            "Messages",
+            "Shipment",
+            "Reconciliation"
+          ],
+          "size": "medium",
+          "visual": "support"
+        }
+      ]
+    },
+    {
+      "id": "final",
+      "type": "cta",
+      "enabled": true,
+      "layout": "centered",
+      "title": "Ready to enter JPY Workspace.",
+      "primaryCta": "Team Login"
+    }
+  ]
+}

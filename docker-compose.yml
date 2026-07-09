@@ -1,0 +1,21 @@
+services:
+  postgres:
+    image: postgres:16-alpine
+    container_name: jpy-team-postgres
+    restart: unless-stopped
+    environment:
+      POSTGRES_USER: jpy_user
+      POSTGRES_PASSWORD: jpy_password
+      POSTGRES_DB: jpy_team_workspace
+    ports:
+      - "5432:5432"
+    volumes:
+      - jpy_postgres_data:/var/lib/postgresql/data
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U jpy_user -d jpy_team_workspace"]
+      interval: 5s
+      timeout: 5s
+      retries: 10
+
+volumes:
+  jpy_postgres_data:

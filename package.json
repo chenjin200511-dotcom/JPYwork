@@ -1,0 +1,55 @@
+{
+  "name": "jpy-team-workspace",
+  "private": true,
+  "version": "0.1.0",
+  "scripts": {
+    "dev": "tsx scripts/backup-sqlite.ts && next dev",
+    "build": "next build",
+    "start": "tsx scripts/backup-sqlite.ts && next start",
+    "lint": "eslint .",
+    "test": "node --test lib/loading/loadingState.test.mjs && tsx --test lib/ai/copilot.test.ts lib/api/csv.test.ts lib/api/schemas.test.ts lib/auth/session.test.ts lib/auth/permissions.test.ts lib/db/sqliteBackup.test.ts lib/integrations/normalize.test.ts lib/notifications/externalNotification.test.ts lib/workspace/pricing.test.ts",
+    "db:generate": "prisma generate",
+    "db:migrate": "prisma migrate dev",
+    "db:push": "prisma db push",
+    "db:seed": "tsx prisma/seed.ts",
+    "db:sqlite:generate": "prisma generate --config prisma.sqlite.config.ts",
+    "db:sqlite:migrate": "prisma migrate dev --config prisma.sqlite.config.ts",
+    "db:sqlite:push": "prisma db push --config prisma.sqlite.config.ts",
+    "db:sqlite:init": "tsx prisma/sqlite-init.ts",
+    "db:sqlite:seed": "tsx prisma/seed.ts --sqlite",
+    "db:studio": "prisma studio"
+  },
+  "prisma": {
+    "seed": "tsx prisma/seed.ts"
+  },
+  "dependencies": {
+    "@prisma/adapter-better-sqlite3": "^7.8.0",
+    "@prisma/adapter-pg": "^7.8.0",
+    "@prisma/client": "^7.8.0",
+    "bcryptjs": "^3.0.3",
+    "better-sqlite3": "^12.11.1",
+    "dotenv": "^17.4.2",
+    "framer-motion": "^12.42.2",
+    "lucide-react": "^1.23.0",
+    "next": "latest",
+    "pg": "^8.22.0",
+    "react": "latest",
+    "react-dom": "latest",
+    "zod": "^4.4.3"
+  },
+  "devDependencies": {
+    "@types/better-sqlite3": "^7.6.13",
+    "@types/node": "latest",
+    "@types/pg": "^8.20.0",
+    "@types/react": "latest",
+    "@types/react-dom": "latest",
+    "autoprefixer": "latest",
+    "eslint": "latest",
+    "eslint-config-next": "latest",
+    "postcss": "latest",
+    "prisma": "^7.8.0",
+    "tailwindcss": "^3.4.17",
+    "tsx": "^4.22.4",
+    "typescript": "latest"
+  }
+}
