@@ -3,6 +3,7 @@
   "private": true,
   "version": "0.1.0",
   "scripts": {
+    "postinstall": "prisma generate",
     "dev": "tsx scripts/backup-sqlite.ts && next dev",
     "build": "next build",
     "start": "tsx scripts/backup-sqlite.ts && next start",
